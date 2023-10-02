@@ -19,7 +19,8 @@ function Box(){
             pauseOnHover: true,
             draggable: true,
             progress: undefined,
-            theme: "dark",
+            theme: "colored",
+            delay:50,
             
             });
         console.log(index)

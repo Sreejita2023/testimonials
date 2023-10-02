@@ -8,6 +8,6 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <div>
     <App />
-    <ToastContainer  toastStyle={{ backgroundColor: "highlight" }} />
+    <ToastContainer  toastStyle={{  backgroundColor: '#8b5cf6'}} limit={3}/>
   </div>
 );
